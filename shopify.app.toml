@@ -3,7 +3,7 @@
 client_id = "da548f2e7511ab0fa6cc1c3b0f6a5fbe"
 name = "php-checkout-ui"
 handle = "php-checkout-ui"
-application_url = "https://planning-postal-ceiling-softball.trycloudflare.com"
+application_url = "https://managers-las-restrictions-reserve.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://planning-postal-ceiling-softball.trycloudflare.com/auth/callback",
-  "https://planning-postal-ceiling-softball.trycloudflare.com/auth/shopify/callback",
-  "https://planning-postal-ceiling-softball.trycloudflare.com/api/auth/callback"
+  "https://managers-las-restrictions-reserve.trycloudflare.com/auth/callback",
+  "https://managers-las-restrictions-reserve.trycloudflare.com/auth/shopify/callback",
+  "https://managers-las-restrictions-reserve.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
