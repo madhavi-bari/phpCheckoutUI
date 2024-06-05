@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "da548f2e7511ab0fa6cc1c3b0f6a5fbe"
+name = "php-checkout-ui"
+handle = "php-checkout-ui"
+application_url = "https://planning-postal-ceiling-softball.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "checkout-extrension-madhavi.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://planning-postal-ceiling-softball.trycloudflare.com/auth/callback",
+  "https://planning-postal-ceiling-softball.trycloudflare.com/auth/shopify/callback",
+  "https://planning-postal-ceiling-softball.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
